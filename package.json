@@ -1,0 +1,64 @@
+{
+    "name": "periodic-table.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "minify-css": "cleancss -o global.css global_actual.css",
+        "minify-js": "uglifyjs htmlJS_actual.js --compress --mangle --output htmlJS.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/catchspider2002/periodic-table.io.git"
+    },
+    "keywords": [
+        "Periodic",
+        "Table",
+        "chemical",
+        "elements",
+        "interactive",
+        "PWA",
+        "properties",
+        "history",
+        "name",
+        "origin",
+        "images",
+        "applications",
+        "hazards",
+        "electron",
+        "shell",
+        "diagram",
+        "chemistry",
+        "electron",
+        "configuration",
+        "isotopes",
+        "information"
+    ],
+    "author": "Naveen CS",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/catchspider2002/periodic-table.io/issues"
+    },
+    "homepage": "https://github.com/catchspider2002/periodic-table.io#readme",
+    "dependencies": {
+        "@brainly/onesky-utils": "^1.4.1",
+        "d3plus-text": "^1.2.3",
+        "dotenv": "^16.0.3",
+        "follow-redirects": "^1.15.2",
+        "fs-extra": "^11.1.1",
+        "jsdom": "^21.1.1",
+        "read-excel-file": "^5.6.1",
+        "svg2img": "^0.9.4",
+        "uglify-js": "^3.17.4"
+    },
+    "devDependencies": {
+        "@prettier/plugin-xml": "^2.2.0",
+        "clean-css": "^5.3.2",
+        "clean-css-cli": "^5.6.2",
+        "convert-svg-to-png": "^0.6.4",
+        "i": "^0.3.7",
+        "prettier": "^2.8.8",
+        "uglify-es": "^3.3.9"
+    }
+}
