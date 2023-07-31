@@ -1,5 +1,5 @@
 ﻿var homeTitle="Elements: The Periodic Table"
-var homeHeader="Periodic Table"
+var homeHeader="IRFAAAAAN"
 var home="Home"
 var compare="Compare"
 var settings="Settings"
