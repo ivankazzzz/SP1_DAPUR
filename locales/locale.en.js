@@ -1,4 +1,4 @@
-﻿var homeTitle="SP1"
+﻿var homeTitle="Elements: The Periodic Table"
 var homeHeader="Periodic Table"
 var home="Home"
 var compare="Compare"
